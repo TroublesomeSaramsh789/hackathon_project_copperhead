@@ -1,0 +1,51 @@
+.homeInfo {
+  width: 90vw;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  h3 {
+    color: rgb(64, 53, 73);
+  }
+}
+button:hover {
+  filter: brightness(80%);
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.BUTTON {
+  display: flex;
+  height: 50%;
+  width: 20vw;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: space-around;
+}
+
+.bg {
+  img {
+    position: absolute;
+    width: auto;
+    height: 30vw;
+    right: 5rem;
+    bottom: 2rem;
+    z-index: -10;
+    cursor: default;
+  }
+}
+.Quote {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+  p {
+    background-color: rgba(236, 236, 223, 0.596);
+    font-size: 1.4rem;
+    width: 50ch;
+    color: #3a506b;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+}

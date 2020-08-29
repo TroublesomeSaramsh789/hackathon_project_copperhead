@@ -1,0 +1,18 @@
+button {
+  border: none;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: #5bc0be;
+  border-radius: 0.5rem;
+  color: white;
+}
+a {
+  color: rgb(255, 255, 255);
+}
+button :hover,
+button:active,
+button:focus {
+  cursor: pointer;
+  color: rgb(9, 0, 41);
+  filter: brightness(85%);
+}

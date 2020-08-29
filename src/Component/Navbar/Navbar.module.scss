@@ -1,0 +1,41 @@
+.Navbar {
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  list-style: none;
+  text-decoration: none;
+  background-color: #1c2541;
+  .logo {
+    flex: 3 1 1rem;
+    display: flex;
+    align-items: center;
+    margin: 0rem 2rem;
+    img {
+      object-fit: cover;
+      height: 80%;
+      width: auto;
+    }
+  }
+
+  nav {
+    flex: 2 1 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: aliceblue;
+    }
+    li {
+      font-size: 30px;
+      padding: 5px 15px;
+      margin: 0rem;
+    }
+    li:hover {
+      color: #5bc0be;
+      border-bottom: solid #5bc0be 5px;
+    }
+  }
+}

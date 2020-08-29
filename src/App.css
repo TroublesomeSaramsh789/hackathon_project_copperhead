@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url(./assets/fonts/opens___.ttf);
+}
+
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url(./assets/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url(./assets/fonts/OpenSans-Semibold.ttf);
+}
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Open Sans Regular;
+}
+.App {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.mainBody {
+  width: 90%;
+  margin: auto;
+}
+/*# sourceMappingURL=App.css.map */

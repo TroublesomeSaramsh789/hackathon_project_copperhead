@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url(./assets/fonts/opens___.ttf);
+}
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url(./assets/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url(./assets/fonts/OpenSans-Semibold.ttf);
+}
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  font-family: Open Sans Regular;
+}
+.NavBar {
+  position: fixed;
+}
